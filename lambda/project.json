@@ -1,0 +1,8 @@
+{
+  "name": "vehicle-maint",
+  "description": "Vehicle Maintenance Application",
+  "memory": 128,
+  "timeout": 5,
+  "role": "arn:aws:iam::167026634751:role/vehicle-maint_lambda_function",
+  "environment": {}
+}
