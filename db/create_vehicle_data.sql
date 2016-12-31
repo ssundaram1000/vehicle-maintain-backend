@@ -62,6 +62,7 @@ where ia.vin = 'JN1CV7AP5HM640540'
 # Input: Last 6 digits of VIN
 # Output: Actions Performed on the VIN
 
+# Shridhar Dont forget API will not work without body mapping template
 {
   "vin": $input.params('vin'),
   "dealerNum": $input.params('dealerNum')
